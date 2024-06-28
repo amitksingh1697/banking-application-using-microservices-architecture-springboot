@@ -1,2 +1,0 @@
-# banking-application-using-microservices-architecture-springboot
-This project is an minimum product for a banking application built using Microservices architecture. It consists of two main microservices: Customer Management Service(CMS) and Account Management Service(AMS), along with other components such as API Gateway, Eureka server for service registration, and centralized configuration management.
