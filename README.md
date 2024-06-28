@@ -121,11 +121,12 @@ For centralized configuration management, follow these steps:
 	- **Get Account Details:**
 		- **Original:** GET http://localhost:9002/api/accounts/{customerId}
 		- **Gateway:** GET http://localhost:8999/api/accounts/{customerId}
- 
-  - **API Gateway API:** http://localhost:8999/
 		
 	- **Delete Account:**
 		- **Original:** DELETE http://localhost:9002/api/accounts/{customerId}
 		- **Gateway:** DELETE http://localhost:8999/api/accounts/{customerId}
+ 
+
+- **API Gateway API:** http://localhost:8999/
 
 
