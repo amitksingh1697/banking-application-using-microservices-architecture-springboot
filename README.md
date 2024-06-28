@@ -105,11 +105,11 @@ For centralized configuration management, follow these steps:
 
 ### URL for Account Management Service: 
 	
-- ###Account Microservice:
+- Account Microservice:
 	- **Original URL:** http://localhost:9002
 	- **API Gateway URL:** http://localhost:8999
 	
-- ###Account Controller APIs:
+- Account Controller APIs:
 	- **Add Money to Account:**
 		- **Original:** POST http://localhost:9002/api/accounts/addMoney/{customerId}
 		- **Gateway:** POST http://localhost:8999/api/accounts/addMoney/{customerId}
