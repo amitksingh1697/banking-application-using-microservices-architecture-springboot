@@ -66,14 +66,16 @@ For centralized configuration management, follow these steps:
 
 **NOTE:** After starting all services, users will use the provided localHost URLs to interact with the respective APIs using Postman. The URL for the respective services, I have provided them below.
 
-
+### Microservices URL: 
+- **Eureka API:** http://localhost:8761/
+- **Config Server API:** http://localhost:9003/
+  
 ### URL for Customer Management Service: 
-	
-- ###Customer Microservice:
+- Customer Microservice:
 	- **Original URL:** http://localhost:9001
 	- **API Gateway URL:** http://localhost:8999
 	
-- ###Customer Controller APIs:
+- Customer Controller APIs:
 	- **Add Customer:**
 		- **Original:** POST http://localhost:9001/api/customers
 		- **Gateway:** POST http://localhost:8999/api/customers
@@ -117,6 +119,8 @@ For centralized configuration management, follow these steps:
 	- **Get Account Details:**
 		- **Original:** GET http://localhost:9002/api/accounts/{customerId}
 		- **Gateway:** GET http://localhost:8999/api/accounts/{customerId}
+ 
+  - **API Gateway API:** http://localhost:8999/
 		
 	- **Delete Account:**
 		- **Original:** DELETE http://localhost:9002/api/accounts/{customerId}
