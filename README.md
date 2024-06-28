@@ -37,7 +37,7 @@ This project is a mini product for a banking application built using Microservic
 
 ## For the Local Setup Guide and Sample URLs
 
-### Microservices configuration for each project:
+## Microservices configuration for each project:
 
 For centralized configuration management, follow these steps:
 - GitHub Repository for configuration:
@@ -56,7 +56,7 @@ For centralized configuration management, follow these steps:
 	- Update the database configuration to match your DB setup.
 			
 
-### Start the microservices in the following order (PLEASE follow the below sequence to ensure proper service startup without any issues):
+## Start the microservices in the following order (PLEASE follow the below sequence to ensure proper service startup without any issues):
 
 1. Eureka Server: Start the Eureka Server, which serves as the service registry.
 2. Config Server: Start the Config Server to manage centralized configurations.
@@ -66,7 +66,9 @@ For centralized configuration management, follow these steps:
 
 **NOTE:** After starting all services, users will use the provided localHost URLs to interact with the respective APIs using Postman. The URL for the respective services, I have provided them below.
 
-### Microservices URL: 
+
+
+## Microservices URL: 
 - **Eureka API:** http://localhost:8761/
 - **Config Server API:** http://localhost:9003/
   
