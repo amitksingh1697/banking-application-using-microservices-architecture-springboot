@@ -49,13 +49,17 @@ For centralized configuration management, follow these steps:
 	
 - Database configuration (Account Service):
 	- Open the accountservice/src/main/resources/application.properties file.
-	- Update the database configuration to match your DB setup.
+	- Update the database configuration i.e. username, password, and dbName to match your DB setup.
 	
 - Database configuration (Customer Service):
 	- Open the customerservice/src/main/resources/application.properties file.
-	- Update the database configuration to match your DB setup.
+	- Update the database configuration i.e. username, password, and dbName to match your DB setup.
 			
+## Before starting the services, please make sure you have created the DBs using the below SQL query i.e. microservice_account and microservice_customer.
+- CREATE DATABASE microservice_account;
+- CREATE DATABASE microservice_customer;
 
+  
 ## Start the microservices in the following order (PLEASE follow the below sequence to ensure proper service startup without any issues):
 
 1. Eureka Server: Start the Eureka Server, which serves as the service registry.
